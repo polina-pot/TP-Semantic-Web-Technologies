@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+     <title>maqcui</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+	
+	<!--logo in title-->
+	<link rel="shortcut icon" href="favicon (3).ico" type="image/x-icon" />
+	
+	<!--bootstrapcdn for social media icons-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  
+  <body>
+  
+     <!--==================NAVIGATION BAR=======-->
+	 
+     <nav class="navbar navbar-default navbar-static-top">
+         <div class="container-fluid">
+		             <!--logo-->
+             <div class="navbar-header">    
+                 <a href="#" class="navbar-brand" ><img id="logo-image" alt="Brand" src="macquitr.png"></a>
+             </div>  	
+			         <!--items-->
+			  <div class="navbar-text pull-left">
+	             <p id="macqui">MACQUI</p>
+	         </div>		 
+			
+		 </div>	    
+     </nav>
+	 
+     <!--===========INSERT PANEL=================-->
+     <div class="container">
+         <div class="main">
+             <h1>Input panel</h1>  
+			 <h4>Insert your data, please</h4>
+			 <div class="container">
+			 <div class="row">
+			  <div class="col-md-12 jumbotron">
+			  
+			  <form action='WelcomeServlet' method='post'>
+             
+                 <fieldset>		 
+					     <!-- COUNTRY INPUT BOX-->
+                     <div class="form-group">
+                         <label id="coun" class="col-md-3 control-label" for="textinput">Country</label>  
+                             <div id="sun" class="col-md-3">
+								 <select id="textinput" name="userCountry" class="form-control" placeholder="Choose">
+                                     <option value="Austria">Austria</option>
+                                     <option value="Belgium">Belgium</option>
+	                                 <option value="Bulgaria">Bulgaria</option>
+									 <option value="Croatia">Croatia</option>
+                                     <option value="Cyprus">Cyprus</option>
+	                                 <option value="Czech Republic">Czech Republic</option>
+									 <option value="Denmark">Denmark</option>
+                                     <option value="Poland">Poland</option>		 
+                                     <option value="Estonia">Estonia</option>
+	                                 <option value="Finland">Finland </option>
+									 <option value="France">France</option>
+                                     <option value="Germany">Germany</option>
+	                                 <option value="Greece">Greece</option>
+									 <option value="Hungary">Hungary</option>
+                                     <option value="Ireland">Ireland</option>
+	                                 <option value="Latvia">Latvia</option>
+									 <option value="Lithuania">Lithuania</option>
+                                     <option value="Luxembourg">Luxembourg</option>
+	                                 <option value="Malta">Malta</option>
+									 <option value="Netherlands">Netherlands</option>
+                                     <option value="Portugal">Portugal</option>
+	                                 <option value="Romania">Romania</option>
+									 <option value="Slovakia">Slovakia</option>
+                                     <option value="Slovenia">Slovenia</option>
+	                                 <option value="Italy">Italy</option>
+									 <option value="Spain">Spain</option>
+                                     <option value="Sweden">Sweden</option>
+	                                 <option value="United Kingdom">United Kingdom</option>
+                                 </select>
+                             </div>
+                     </div>
+					 
+					 <!--GROWTH FOCUS BOX-->
+					 <div class="form-group">
+                         <label id="gro" class="col-sm-3 control-label" for="radius">Growth focus</label>
+                             <div id="focusfield" class="col-sm-3">
+                                 <select id="radius" name="focus" class="form-control" placeholder="Choose">
+                                     <option value="Education">Education</option>
+                                     <option value="Innovation">Innovation</option>
+	                                 <option value="Sales">Sales</option>
+                                 </select>
+                             </div>
+                     </div>                    
+						 
+					 <!--SEARCH BUTTON-->
+	                 <div class="form-group">
+                             <div class="col-sm-3 clearfix">
+							 <button  id="submit" name="submit" class="btn-jumbotron btn btn-primary btn-md" style="color: #FFF" align="center"><span class="glyphicon glyphicon-chevron-right"></span> Recommend</button>
+                             </div>
+                     </div>
+					 </fieldset>
+				 </form>
+				 </div>
+				 </div>
+				 </div>
+				 </div>
+			 </div>
+  
+	 <!--============FOOTER=================-->
+	
+	 <div class="navbar navbar-inverse navbar-fixed-bottom">
+	     <div class="container">
+	         <div class="navbar pull-left">
+	             <a href="#"  class="navbar-brand" ><img id="uni-logo" alt="Brand" src="trnspunilogo.png"></a>
+	         </div>
+			 <div class="navbar-text pull-left">
+	             <p><span id="unip">UniMa Consulting Group LLC.</span> <span style="font:12px Arial;">&copy; 2017  All rights reserved.</span></p>
+	         </div>
+	         <div class="navbar-text pull-right">
+			     <!--icon for our company/under construction:)<a class="docIcon" href="#" type="image" src="img/exceltrs.png" name="excel"></a>-->
+	             <a href"#"><i class="fa fa-facebook-square fa-2x"  aria-hidden="true"></i></a>
+				 <a href"#"><i class="fa fa-twitter-square fa-2x"  aria-hidden="true"></i></a>
+				 <a href"#"><i class="fa fa-linkedin-square fa-2x"  aria-hidden="true"></i></a>
+	         </div>
+	     </div>
+	 </div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+  </body>
+</html>

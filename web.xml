@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  
+<servlet>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <servlet-class>
+    	com.ontoservlet.test.MainForm
+    </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>WelcomeServlet</servlet-name>
+    <url-pattern>/WelcomeServlet</url-pattern>
+   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SalesServlet</servlet-name>
+    <servlet-class>
+    	com.ontoservlet.test.SalesServlet
+    </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>SalesServlet</servlet-name>
+    <url-pattern>/SalesServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>EducationServlet</servlet-name>
+    <servlet-class>
+    	com.ontoservlet.test.EducationServlet
+    </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>EducationServlet</servlet-name>
+    <url-pattern>/EducationServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>InnovationServlet</servlet-name>
+    <servlet-class>
+    	com.ontoservlet.test.InnovationServlet
+    </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>InnovationServlet</servlet-name>
+    <url-pattern>/InnovationServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>

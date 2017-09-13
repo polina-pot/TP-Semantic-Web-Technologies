@@ -1,4 +1,4 @@
-package com.ontoservlet.test;
+package com.macqui;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.List;
 
-import com.ontoservlet.test.Helper;
+import com.macqui.Helper;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

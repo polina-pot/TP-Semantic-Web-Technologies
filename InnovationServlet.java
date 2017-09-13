@@ -1,4 +1,4 @@
-package com.macqui;;
+package com.macqui;
 
 
 import java.io.ByteArrayOutputStream;

@@ -4,7 +4,7 @@
 <servlet>
     <servlet-name>WelcomeServlet</servlet-name>
     <servlet-class>
-    	com.ontoservlet.test.MainForm
+    	com.macqui.MainForm
     </servlet-class>
   </servlet>
   
@@ -16,7 +16,7 @@
   <servlet>
     <servlet-name>SalesServlet</servlet-name>
     <servlet-class>
-    	com.ontoservlet.test.SalesServlet
+    	com.macqui.SalesServlet
     </servlet-class>
   </servlet>
   
@@ -28,7 +28,7 @@
   <servlet>
     <servlet-name>EducationServlet</servlet-name>
     <servlet-class>
-    	com.ontoservlet.test.EducationServlet
+    	com.macqui.EducationServlet
     </servlet-class>
   </servlet>
   
@@ -40,7 +40,7 @@
   <servlet>
     <servlet-name>InnovationServlet</servlet-name>
     <servlet-class>
-    	com.ontoservlet.test.InnovationServlet
+    	com.macqui.InnovationServlet
     </servlet-class>
   </servlet>
   

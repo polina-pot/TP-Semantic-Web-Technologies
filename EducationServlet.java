@@ -1,4 +1,4 @@
-package com.ontoservlet.test;
+package com.macqui;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
@@ -195,22 +195,6 @@ public class EducationServlet extends HttpServlet {
 			    
 			    pw.close();
 			    
-			    /*ByteArrayOutputStream baos = new ByteArrayOutputStream();
-			    PrintStream ps = new PrintStream(baos);
-			    ResultSetFormatter.out(ps, results, query);
-			    String s = new String(baos.toByteArray(), "UTF-8");
-			    
-			    out.println("<html><body>");
-			      out.println("<h1> Your focus is Sales and your Country is " + s.substring(714, 720) + ".</h1>");
-			      out.println("</html></body>");*/
-			    
-			    //Print out the result
-			
-			     //out.println(s);
-			    
-			     //ResultSetFormatter.outputAsJSON(System.out, results);
-			
-			   //out.println(ResultSetFormatter.asText(results));
 			    
 			    while ( results.hasNext() )
 			    {

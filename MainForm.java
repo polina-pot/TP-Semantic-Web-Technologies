@@ -1,14 +1,6 @@
 
-package com.ontoservlet.test;
+package com.macqui;
 
-
-//import java.io.FileInputStream;
-//import java.io.FileNotFoundException;
-
-
-//import org.apache.jena.ontology.OntModel;
-//import org.apache.jena.ontology.OntModelSpec;
-//import org.apache.jena.rdf.model.ModelFactory;
 
 import java.io.IOException;
 import java.io.PrintWriter;

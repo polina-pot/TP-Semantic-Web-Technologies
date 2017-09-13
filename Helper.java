@@ -1,4 +1,4 @@
-package com.ontoservlet.test;
+package com.macqui;;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
